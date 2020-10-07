@@ -19,6 +19,7 @@ subreddit = reddit.subreddit("sacrosaurio")
 for submission in subreddit.new(limit = 25):
 
     for comment in subreddit.stream.comments(skip_existing=True):
+        print("Searching...")
         if hasattr(comment, "body"):
             comment_lower = comment.body.lower()
             if "ban" in comment_lower:
