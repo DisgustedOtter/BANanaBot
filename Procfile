@@ -1,1 +1,1 @@
-"worker: python BANanaBot.py" 
+"web: python BANanaBot.py" 
