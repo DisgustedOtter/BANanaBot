@@ -1,1 +1,1 @@
-worker:python BANanaBot.py
+worker: python BANanaBot.py
